@@ -308,3 +308,47 @@ nav>ul>li>i {
 .place_btn>a>i {
     margin-left: 1rem;
 }
+
+
+
+/* Footer starts */
+#footer {
+    background: #0A0826;
+    padding: 5rem 0;
+}
+
+#footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_title {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    font-style: 400;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer_info {
+    margin-top: .5rem;
+    color: #D9DBE1;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.4rem;
+    font-style: 400;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+
+#footer .social_links {
+    margin-top: 1.7rem;
+    display: flex;
+    gap: 1.6rem;
+}
+
+#footer .social_links>img {
+    background-color: #fff;
+}

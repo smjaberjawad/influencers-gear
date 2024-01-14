@@ -148,4 +148,18 @@
         padding: 1rem 2.5rem;
     }
 
+
+    /* Footer starts */
+    .footer_title {
+        font-size: 1.6rem;
+    }
+
+    .footer_info {
+        font-size: 1.2rem;
+    }
+
+    #footer .social_links>img {
+        background-color: #fff;
+    }
+
 }
