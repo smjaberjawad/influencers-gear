@@ -94,10 +94,14 @@
     /* Main starts */
     #main {
         margin-top: 30rem;
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
     }
 
     /* Collection Section */
+    #collection {
+        margin-bottom: 5rem;
+    }
+
     .collection_title {
         font-size: 2.2rem;
         margin-bottom: 2rem;
@@ -110,6 +114,38 @@
 
     .see_more_btn {
         justify-content: center;
+    }
+
+    /* One Place Section */
+    #place {
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .place_img,
+    .place_content {
+        width: 100%;
+    }
+
+    .place_content {
+        align-items: center;
+    }
+
+    .place_title {
+        text-align: center;
+        font-size: 2.4rem;
+        line-height: normal;
+    }
+
+    .place_description {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .place_btn {
+        width: 50%;
+        padding: 1rem 2.5rem;
     }
 
 }
