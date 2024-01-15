@@ -349,6 +349,7 @@ nav>ul>li>i {
     gap: 1.6rem;
 }
 
-#footer .social_links>img {
-    background-color: #fff;
+#footer .social_links>i {
+    font-size: 2rem;
+    color: #fff;
 }
